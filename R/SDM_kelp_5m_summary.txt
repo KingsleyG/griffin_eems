@@ -1,0 +1,45 @@
+
+> summary(m_erad)                                                                # all covariates are significant
+
+Call:
+glm(formula = cbind(erad_vals, 25 - erad_vals) ~ isreef_5m.grd + 
+    bathy_5m.grd + latitude_5m.grd + longitude_5m.grd, family = binomial, 
+    data = sdmdata)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-7.5889  -2.0199  -1.2640  -0.7187  12.9205  
+
+Coefficients:
+                   Estimate Std. Error z value Pr(>|z|)    
+(Intercept)       2.172e+03  6.934e+01   31.33   <2e-16 ***
+isreef_5m.grd1    1.047e+00  4.309e-02   24.30   <2e-16 ***
+bathy_5m.grd      3.567e-01  5.159e-03   69.15   <2e-16 ***
+latitude_5m.grd  -3.208e-04  1.137e-05  -28.23   <2e-16 ***
+longitude_5m.grd -4.905e-04  1.458e-05  -33.65   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 33877  on 3217  degrees of freedom
+Residual deviance: 25478  on 3213  degrees of freedom
+AIC: 27705
+
+Number of Fisher Scoring iterations: 5
+
+
+> drop1(m_erad)                                                                  # all covariates should be retained
+Single term deletions
+
+Model:
+cbind(erad_vals, 25 - erad_vals) ~ isreef_5m.grd + bathy_5m.grd + 
+    latitude_5m.grd + longitude_5m.grd
+                 Df Deviance   AIC
+<none>                 25478 27705
+isreef_5m.grd     1    26150 28374
+bathy_5m.grd      1    31257 33482
+latitude_5m.grd   1    26307 28531
+longitude_5m.grd  1    26674 28899
+
+> sink()

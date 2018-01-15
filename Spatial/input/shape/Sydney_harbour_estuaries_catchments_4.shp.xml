@@ -1,0 +1,1069 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmd:MD_Metadata xmlns="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/metadataEntity.xsd">
+	<gmd:fileIdentifier>
+		<gco:CharacterString>{12439918-7D6F-4F7F-A5C0-593CBB737F1C}</gco:CharacterString>
+	</gmd:fileIdentifier>
+	<gmd:language>
+		<gco:CharacterString>eng</gco:CharacterString>
+	</gmd:language>
+	<gmd:characterSet>
+		<gmd:MD_CharacterSetCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_CharactersetCode" codeListValue="utf8"/>
+	</gmd:characterSet>
+	<gmd:parentIdentifier>
+		<gco:CharacterString>{5EBFFA2B-B156-4357-9690-3BC91EBCF3BB}</gco:CharacterString>
+	</gmd:parentIdentifier>
+	<gmd:hierarchyLevel>
+		<gmd:MD_ScopeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset"/>
+	</gmd:hierarchyLevel>
+	<gmd:hierarchyLevelName/>
+	<gmd:contact>
+		<gmd:CI_ResponsibleParty>
+			<gmd:organisationName>
+				<gco:CharacterString>NSW Department of Environment, Climate Change and Water (DECCW)</gco:CharacterString>
+			</gmd:organisationName>
+			<gmd:positionName>
+				<gco:CharacterString>Data Broker</gco:CharacterString>
+			</gmd:positionName>
+			<gmd:contactInfo>
+				<gmd:CI_Contact>
+					<gmd:phone>
+						<gmd:CI_Telephone>
+							<gmd:voice>
+								<gco:CharacterString>02 6740 2349</gco:CharacterString>
+							</gmd:voice>
+							<gmd:facsimile>
+								<gco:CharacterString>02 6742 3149</gco:CharacterString>
+							</gmd:facsimile>
+						</gmd:CI_Telephone>
+					</gmd:phone>
+					<gmd:address>
+						<gmd:CI_Address>
+							<gmd:deliveryPoint>
+								<gco:CharacterString>PO Box 3720</gco:CharacterString>
+							</gmd:deliveryPoint>
+							<gmd:city>
+								<gco:CharacterString>Parramatta</gco:CharacterString>
+							</gmd:city>
+							<gmd:administrativeArea>
+								<gco:CharacterString>NSW</gco:CharacterString>
+							</gmd:administrativeArea>
+							<gmd:postalCode>
+								<gco:CharacterString>2124</gco:CharacterString>
+							</gmd:postalCode>
+							<gmd:country>
+								<gco:CharacterString>Australia</gco:CharacterString>
+							</gmd:country>
+							<gmd:electronicMailAddress>
+								<gco:CharacterString>data.broker@environment.nsw.gov.au</gco:CharacterString>
+							</gmd:electronicMailAddress>
+						</gmd:CI_Address>
+					</gmd:address>
+					<gmd:onlineResource>
+						<gmd:CI_OnlineResource>
+							<gmd:linkage/>
+							<gmd:protocol/>
+							<gmd:applicationProfile/>
+							<gmd:name/>
+							<gmd:description/>
+							<gmd:function/>
+						</gmd:CI_OnlineResource>
+					</gmd:onlineResource>
+				</gmd:CI_Contact>
+			</gmd:contactInfo>
+			<gmd:role>
+				<gmd:CI_RoleCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor"/>
+			</gmd:role>
+		</gmd:CI_ResponsibleParty>
+	</gmd:contact>
+	<gmd:dateStamp>
+		<gco:Date>2010-12-28</gco:Date>
+	</gmd:dateStamp>
+	<gmd:metadataStandardName>
+		<gco:CharacterString>ANZLIC Metadata Profile: An Australian/New Zealand Profile of AS/NZS ISO 19115:2005, Geographic information - Metadata</gco:CharacterString>
+	</gmd:metadataStandardName>
+	<gmd:metadataStandardVersion>
+		<gco:CharacterString>1.1</gco:CharacterString>
+	</gmd:metadataStandardVersion>
+	<gmd:spatialRepresentationInfo>
+		<gmd:MD_VectorSpatialRepresentation>
+			<gmd:topologyLevel/>
+			<gmd:geometricObjects>
+				<gmd:MD_GeometricObjects>
+					<gmd:geometricObjectType/>
+					<gmd:geometricObjectCount>
+						<gco:Integer>1</gco:Integer>
+					</gmd:geometricObjectCount>
+				</gmd:MD_GeometricObjects>
+			</gmd:geometricObjects>
+		</gmd:MD_VectorSpatialRepresentation>
+	</gmd:spatialRepresentationInfo>
+	<gmd:referenceSystemInfo>
+		<gmd:MD_ReferenceSystem>
+			<gmd:referenceSystemIdentifier>
+				<gmd:RS_Identifier>
+					<gmd:authority>
+						<gmd:CI_Citation>
+							<gmd:title>
+								<gco:CharacterString>EPSG Geodetic Parameter Dataset</gco:CharacterString>
+							</gmd:title>
+							<gmd:date>
+								<gmd:CI_Date>
+									<gmd:date>
+										<gco:Date>2007-07-16</gco:Date>
+									</gmd:date>
+									<gmd:dateType>
+										<gmd:CI_DateTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision </gmd:CI_DateTypeCode>
+									</gmd:dateType>
+								</gmd:CI_Date>
+							</gmd:date>
+						</gmd:CI_Citation>
+					</gmd:authority>
+					<gmd:code>
+						<gco:CharacterString>4283</gco:CharacterString>
+					</gmd:code>
+					<gmd:codeSpace>
+						<gco:CharacterString>GDA94 / Geographic</gco:CharacterString>
+					</gmd:codeSpace>
+				</gmd:RS_Identifier>
+			</gmd:referenceSystemIdentifier>
+		</gmd:MD_ReferenceSystem>
+	</gmd:referenceSystemInfo>
+	<gmd:identificationInfo>
+		<gmd:MD_DataIdentification>
+			<gmd:citation>
+				<gmd:CI_Citation>
+					<gmd:title>
+						<gco:CharacterString>Estuaries</gco:CharacterString>
+					</gmd:title>
+					<gmd:alternateTitle>
+						<gco:CharacterString>MER Estuaries</gco:CharacterString>
+					</gmd:alternateTitle>
+					<gmd:date>
+						<gmd:CI_Date>
+							<gmd:date>
+								<gco:Date>2008-04-24</gco:Date>
+							</gmd:date>
+							<gmd:dateType>
+								<gmd:CI_DateTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+							</gmd:dateType>
+						</gmd:CI_Date>
+					</gmd:date>
+					<gmd:date>
+						<gmd:CI_Date>
+							<gmd:date>
+								<gco:Date>2010-12-28</gco:Date>
+							</gmd:date>
+							<gmd:dateType>
+								<gmd:CI_DateTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+							</gmd:dateType>
+						</gmd:CI_Date>
+					</gmd:date>
+					<gmd:citedResponsibleParty>
+						<gmd:CI_ResponsibleParty>
+							<gmd:organisationName>
+								<gco:CharacterString>NSW Department of Environment, Climate Change and Water (DECCW)</gco:CharacterString>
+							</gmd:organisationName>
+							<gmd:positionName>
+								<gco:CharacterString>Data Broker</gco:CharacterString>
+							</gmd:positionName>
+							<gmd:contactInfo>
+								<gmd:CI_Contact>
+									<gmd:phone>
+										<gmd:CI_Telephone>
+											<gmd:voice>
+												<gco:CharacterString>02 6740 2349</gco:CharacterString>
+											</gmd:voice>
+											<gmd:facsimile>
+												<gco:CharacterString>02 6742 3149</gco:CharacterString>
+											</gmd:facsimile>
+										</gmd:CI_Telephone>
+									</gmd:phone>
+									<gmd:address>
+										<gmd:CI_Address>
+											<gmd:deliveryPoint>
+												<gco:CharacterString>PO Box 3720</gco:CharacterString>
+											</gmd:deliveryPoint>
+											<gmd:city>
+												<gco:CharacterString>Parramatta</gco:CharacterString>
+											</gmd:city>
+											<gmd:administrativeArea>
+												<gco:CharacterString>NSW</gco:CharacterString>
+											</gmd:administrativeArea>
+											<gmd:postalCode>
+												<gco:CharacterString>2124</gco:CharacterString>
+											</gmd:postalCode>
+											<gmd:country>
+												<gco:CharacterString>Australia</gco:CharacterString>
+											</gmd:country>
+											<gmd:electronicMailAddress>
+												<gco:CharacterString>data.broker@environment.nsw.gov.au</gco:CharacterString>
+											</gmd:electronicMailAddress>
+										</gmd:CI_Address>
+									</gmd:address>
+								</gmd:CI_Contact>
+							</gmd:contactInfo>
+							<gmd:role>
+								<gmd:CI_RoleCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian"/>
+							</gmd:role>
+						</gmd:CI_ResponsibleParty>
+					</gmd:citedResponsibleParty>
+				</gmd:CI_Citation>
+			</gmd:citation>
+			<gmd:abstract>
+				<gco:CharacterString>The Estuaries datasets contain the water boundary of each estuary in NSW up to its tidal limits and includes areas vegetated with the macrophytes; seagrass, mangrove, and saltmarsh.  A survey of the tidal limits was carried out between 1996 and 2005 by Manly Hydraulics Laboratory on behalf of the Department of Natural Resources. Coordinates of the tidal limits were mapped, tributary waterway areas extended up to the surveyed tidal limits, and a boundary digitised between the upper (fluvial) catchment draining directly to the river system above the tidal limits and the lower (estuarine) catchment draining directly to the estuary and its tributaries.  The catchment area draining into each estuary has been defined as two GIS spatial layers - EstuaryDrainageCatchmentBdy (line feature) and EstuaryDrainageCatchment (polygon feature) - based on the digitising of catchments for the NSW Stressed Rivers Assessments conducted for the water sharing plan process. 
+
+
+
+As outlined in the Data Lineage section, a 9 stage method was used to create the Estuaries(Macrophytes) dataset and details how existing spatial data were combined from a number of agencies and projects and developed through consultation with the existing knowledge base of individuals and reports. Two datasets were created, one including the extent of the three different macrophyte types, the other merging macrophyte extent with the estuary water surface (this dataset).  These layers were required for calculating basic physical characteristics of each estuary such as area, depth, volume, dilution and flushing; modelling of catchment runoff; development of a new chlorophyll response-based classification system for NSW estuaries and normalising pressures for valid comparisons between estuaries. Separate fluvial and estuary catchments were required for future investigation of causal relationships between catchment pressures above or below the tidal limits and estuary health.
+
+
+
+NB. This is a simplified dataset and the macrophyte information is not retained in the attribute table.</gco:CharacterString>
+			</gmd:abstract>
+			<gmd:purpose>
+				<gco:CharacterString>This estuary dataset was developed under a new Monitoring, Evaluation and Reporting (MER) Program initiated by the NSW Government in 2007 to assess and better manage the health of natural resources across the State. The MER Program is in response to the NSW Natural Resources MER Strategy which has the objective of providing appropriate information for decision-making by natural resource managers.</gco:CharacterString>
+			</gmd:purpose>
+			<gmd:status>
+				<gmd:MD_ProgressCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed"/>
+			</gmd:status>
+			<gmd:resourceMaintenance>
+				<gmd:MD_MaintenanceInformation>
+					<gmd:maintenanceAndUpdateFrequency>
+						<gmd:MD_MaintenanceFrequencyCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="unknown">unknown</gmd:MD_MaintenanceFrequencyCode>
+					</gmd:maintenanceAndUpdateFrequency>
+					<gmd:dateOfNextUpdate/>
+				</gmd:MD_MaintenanceInformation>
+			</gmd:resourceMaintenance>
+			<gmd:resourceFormat>
+				<gmd:MD_Format>
+					<gmd:name>
+						<gco:CharacterString></gco:CharacterString>
+					</gmd:name>
+					<gmd:version>
+						<gco:CharacterString></gco:CharacterString>
+					</gmd:version>
+				</gmd:MD_Format>
+			</gmd:resourceFormat>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						<gco:CharacterString></gco:CharacterString>
+					</gmd:keyword>
+					<gmd:type>
+						<gmd:MD_KeywordTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+					</gmd:type>
+					<gmd:thesaurusName>
+						<gmd:CI_Citation>
+							<gmd:title>
+								<gco:CharacterString>ANZLIC Jurisdictions</gco:CharacterString>
+							</gmd:title>
+							<gmd:date>
+								<gmd:CI_Date>
+									<gmd:date>
+										<gco:Date>2008-10-29</gco:Date>
+									</gmd:date>
+									<gmd:dateType>
+										<gmd:CI_DateTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+									</gmd:dateType>
+								</gmd:CI_Date>
+							</gmd:date>
+							<gmd:edition>
+								<gco:CharacterString>Version 2.1</gco:CharacterString>
+							</gmd:edition>
+							<gmd:editionDate>
+								<gco:Date>2008-10-29</gco:Date>
+							</gmd:editionDate>
+							<gmd:identifier>
+								<gmd:MD_Identifier>
+									<gmd:code>
+										<gco:CharacterString>http://asdd.ga.gov.au/asdd/profileinfo/anzlic-jurisdic.xml#anzlic-jurisdic</gco:CharacterString>
+									</gmd:code>
+								</gmd:MD_Identifier>
+							</gmd:identifier>
+							<gmd:citedResponsibleParty>
+								<gmd:CI_ResponsibleParty>
+									<gmd:organisationName>
+										<gco:CharacterString>ANZLIC the Spatial Information Council</gco:CharacterString>
+									</gmd:organisationName>
+									<gmd:role>
+										<gmd:CI_RoleCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+									</gmd:role>
+								</gmd:CI_ResponsibleParty>
+							</gmd:citedResponsibleParty>
+						</gmd:CI_Citation>
+					</gmd:thesaurusName>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						<gco:CharacterString></gco:CharacterString>
+					</gmd:keyword>
+					<gmd:type>
+						<gmd:MD_KeywordTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+					</gmd:type>
+					<gmd:thesaurusName>
+						<gmd:CI_Citation>
+							<gmd:title>
+								<gco:CharacterString>ANZLIC Search Words</gco:CharacterString>
+							</gmd:title>
+							<gmd:date>
+								<gmd:CI_Date>
+									<gmd:date>
+										<gco:Date>2008-05-16</gco:Date>
+									</gmd:date>
+									<gmd:dateType>
+										<gmd:CI_DateTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+									</gmd:dateType>
+								</gmd:CI_Date>
+							</gmd:date>
+							<gmd:edition>
+								<gco:CharacterString>Version 2.1</gco:CharacterString>
+							</gmd:edition>
+							<gmd:editionDate>
+								<gco:Date>2008-05-16</gco:Date>
+							</gmd:editionDate>
+							<gmd:identifier>
+								<gmd:MD_Identifier>
+									<gmd:code>
+										<gco:CharacterString>http://asdd.ga.gov.au/asdd/profileinfo/anzlic-theme.xml#anzlic-theme</gco:CharacterString>
+									</gmd:code>
+								</gmd:MD_Identifier>
+							</gmd:identifier>
+							<gmd:citedResponsibleParty>
+								<gmd:CI_ResponsibleParty>
+									<gmd:organisationName>
+										<gco:CharacterString>ANZLIC the Spatial Information Council</gco:CharacterString>
+									</gmd:organisationName>
+									<gmd:role>
+										<gmd:CI_RoleCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+									</gmd:role>
+								</gmd:CI_ResponsibleParty>
+							</gmd:citedResponsibleParty>
+						</gmd:CI_Citation>
+					</gmd:thesaurusName>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:resourceConstraints/>
+			<gmd:resourceConstraints/>
+			<gmd:resourceConstraints/>
+			<gmd:resourceConstraints/>
+			<gmd:resourceConstraints/>
+			<gmd:resourceConstraints/>
+			<gmd:resourceConstraints/>
+			<gmd:aggregationInfo>
+				<gmd:MD_AggregateInformation>
+					<gmd:aggregateDataSetIdentifier>
+						<gmd:MD_Identifier>
+							<gmd:code>
+								<gco:CharacterString>EstuaryTidalLimits_Macrophytes</gco:CharacterString>
+							</gmd:code>
+						</gmd:MD_Identifier>
+					</gmd:aggregateDataSetIdentifier>
+					<gmd:associationType>
+						<gmd:DS_AssociationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode" codeListValue="source"/>
+					</gmd:associationType>
+				</gmd:MD_AggregateInformation>
+			</gmd:aggregationInfo>
+			<gmd:spatialRepresentationType>
+				<gmd:MD_SpatialRepresentationTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="vector"/>
+			</gmd:spatialRepresentationType>
+			<gmd:spatialResolution>
+				<gmd:MD_Resolution>
+					<gmd:equivalentScale>
+						<gmd:MD_RepresentativeFraction>
+							<gmd:denominator>
+								<gco:Integer>25000</gco:Integer>
+							</gmd:denominator>
+						</gmd:MD_RepresentativeFraction>
+					</gmd:equivalentScale>
+				</gmd:MD_Resolution>
+			</gmd:spatialResolution>
+			<gmd:language>
+				<gco:CharacterString>eng</gco:CharacterString>
+			</gmd:language>
+			<gmd:characterSet>
+				<gmd:MD_CharacterSetCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8"/>
+			</gmd:characterSet>
+			<gmd:topicCategory>
+				<gmd:MD_TopicCategoryCode>oceans</gmd:MD_TopicCategoryCode>
+			</gmd:topicCategory>
+			<gmd:extent>
+				<gmd:EX_Extent>
+					<gmd:description/>
+					<gmd:geographicElement>
+						<gmd:EX_GeographicBoundingBox>
+							<gmd:westBoundLongitude>
+								<gco:Decimal>148.7629</gco:Decimal>
+							</gmd:westBoundLongitude>
+							<gmd:eastBoundLongitude>
+								<gco:Decimal>153.866</gco:Decimal>
+							</gmd:eastBoundLongitude>
+							<gmd:southBoundLatitude>
+								<gco:Decimal>-37.9713</gco:Decimal>
+							</gmd:southBoundLatitude>
+							<gmd:northBoundLatitude>
+								<gco:Decimal>-27.9886</gco:Decimal>
+							</gmd:northBoundLatitude>
+						</gmd:EX_GeographicBoundingBox>
+					</gmd:geographicElement>
+					<gmd:temporalElement>
+						<gmd:EX_TemporalExtent>
+							<gmd:extent/>
+						</gmd:EX_TemporalExtent>
+					</gmd:temporalElement>
+					<gmd:temporalElement>
+						<gmd:EX_TemporalExtent>
+							<gmd:extent>
+								<gml:TimePeriod gml:id="TP1">
+									<gml:beginPosition>2008-01-01</gml:beginPosition>
+									<gml:endPosition>2010-12-28</gml:endPosition>
+								</gml:TimePeriod>
+							</gmd:extent>
+						</gmd:EX_TemporalExtent>
+					</gmd:temporalElement>
+					<gmd:verticalElement>
+						<gmd:EX_VerticalExtent>
+							<gmd:minimumValue>
+								<gco:Real>-100</gco:Real>
+							</gmd:minimumValue>
+							<gmd:maximumValue>
+								<gco:Real>2228</gco:Real>
+							</gmd:maximumValue>
+							<gmd:verticalCRS>
+								<gml:VerticalCRS gml:id="v1">
+									<gml:description></gml:description>
+									<gml:identifier codeSpace="urn:ogc:def:cs:EPSG::">5711</gml:identifier>
+									<gml:scope>Australia</gml:scope>
+									<gml:verticalCS>
+										<gml:VerticalCS gml:id="v2">
+											<gml:identifier codeSpace="urn:ogc:def:cs:EPSG::">6499</gml:identifier>
+											<gml:axis>
+												<gml:CoordinateSystemAxis gml:uom="m" gml:id="v3">
+													<gml:identifier codeSpace="urn:ogc:def:axis:EPSG::">5711</gml:identifier>
+													<gml:axisAbbrev>AHD</gml:axisAbbrev>
+													<gml:axisDirection codeSpace="urn:ogc:def:axisDirection:EPSG::">up</gml:axisDirection>
+												</gml:CoordinateSystemAxis>
+											</gml:axis>
+										</gml:VerticalCS>
+									</gml:verticalCS>
+									<gml:verticalDatum/>
+								</gml:VerticalCRS>
+							</gmd:verticalCRS>
+						</gmd:EX_VerticalExtent>
+					</gmd:verticalElement>
+				</gmd:EX_Extent>
+			</gmd:extent>
+			<gmd:supplementalInformation>
+				<gco:CharacterString>This mapping was done as part of the NSW Monitoring Evaluation and Reporting Program - Estuaries Theme
+
+
+
+REPORT_NSWEstuariesCatchments.doc</gco:CharacterString>
+			</gmd:supplementalInformation>
+		</gmd:MD_DataIdentification>
+	</gmd:identificationInfo>
+	<gmd:contentInfo>
+		<gmd:MD_CoverageDescription>
+			<gmd:attributeDescription>
+				<gco:RecordType></gco:RecordType>
+			</gmd:attributeDescription>
+			<gmd:contentType>
+				<gmd:MD_CoverageContentTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_CoverageContentTypeCode" codeListValue=""/>
+			</gmd:contentType>
+		</gmd:MD_CoverageDescription>
+	</gmd:contentInfo>
+	<gmd:distributionInfo>
+		<gmd:MD_Distribution>
+			<gmd:distributor>
+				<gmd:MD_Distributor>
+					<gmd:distributorContact>
+						<gmd:CI_ResponsibleParty>
+							<gmd:individualName>
+								<gco:CharacterString/>
+							</gmd:individualName>
+							<gmd:organisationName>
+								<gco:CharacterString>NSW Department of Environment,Climate Change and Water (DECCW)</gco:CharacterString>
+							</gmd:organisationName>
+							<gmd:positionName>
+								<gco:CharacterString>Data Broker</gco:CharacterString>
+							</gmd:positionName>
+							<gmd:contactInfo>
+								<gmd:CI_Contact>
+									<gmd:phone>
+										<gmd:CI_Telephone>
+											<gmd:voice>
+												<gco:CharacterString>02 6740 2349</gco:CharacterString>
+											</gmd:voice>
+											<gmd:facsimile>
+												<gco:CharacterString>02 6742 3129</gco:CharacterString>
+											</gmd:facsimile>
+										</gmd:CI_Telephone>
+									</gmd:phone>
+									<gmd:address>
+										<gmd:CI_Address>
+											<gmd:deliveryPoint>
+												<gco:CharacterString>PO Box 3720</gco:CharacterString>
+											</gmd:deliveryPoint>
+											<gmd:city>
+												<gco:CharacterString>Parramatta</gco:CharacterString>
+											</gmd:city>
+											<gmd:administrativeArea>
+												<gco:CharacterString>NSW</gco:CharacterString>
+											</gmd:administrativeArea>
+											<gmd:postalCode>
+												<gco:CharacterString>2124</gco:CharacterString>
+											</gmd:postalCode>
+											<gmd:country>
+												<gco:CharacterString>Australia</gco:CharacterString>
+											</gmd:country>
+											<gmd:electronicMailAddress>
+												<gco:CharacterString>data.broker@environment.nsw.gov.au</gco:CharacterString>
+											</gmd:electronicMailAddress>
+										</gmd:CI_Address>
+									</gmd:address>
+									<gmd:onlineResource>
+										<gmd:CI_OnlineResource>
+											<gmd:linkage>
+												<URL/>
+											</gmd:linkage>
+											<gmd:protocol>
+												<gco:CharacterString/>
+											</gmd:protocol>
+											<gmd:applicationProfile>
+												<gco:CharacterString/>
+											</gmd:applicationProfile>
+											<gmd:name>
+												<gco:CharacterString/>
+											</gmd:name>
+											<gmd:description>
+												<gco:CharacterString/>
+											</gmd:description>
+											<gmd:function>
+												<gmd:CI_OnLineFunctionCode codeList="http://www.tc211.org/ISO19139/resources/codeList.xml#CI_OnLineFunctionCode" codeListValue=""/>
+											</gmd:function>
+										</gmd:CI_OnlineResource>
+									</gmd:onlineResource>
+								</gmd:CI_Contact>
+							</gmd:contactInfo>
+							<gmd:role>
+								<gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor"/>
+							</gmd:role>
+						</gmd:CI_ResponsibleParty>
+					</gmd:distributorContact>
+				</gmd:MD_Distributor>
+			</gmd:distributor>
+		</gmd:MD_Distribution>
+	</gmd:distributionInfo>
+	<gmd:dataQualityInfo>
+		<gmd:DQ_DataQuality>
+			<gmd:scope>
+				<gmd:DQ_Scope>
+					<gmd:level>
+						<gmd:MD_ScopeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+					</gmd:level>
+					<gmd:levelDescription>
+						<gmd:MD_ScopeDescription>
+							<gmd:other>
+								<gco:CharacterString>dataset</gco:CharacterString>
+							</gmd:other>
+						</gmd:MD_ScopeDescription>
+					</gmd:levelDescription>
+				</gmd:DQ_Scope>
+			</gmd:scope>
+			<gmd:lineage>
+				<gmd:LI_Lineage>
+					<gmd:statement>
+						<gco:CharacterString>The initial stage in developing the Estuaries datasets was to create hydrological catchment layers comprising line (EstuaryDrainageCatchmentsBdy) and polygon (EstuaryDrainageCatchments) feature classes.  These initial datasets defined a true representation of the hydrological catchment/watershed for NSW coastal estuaries.
+
+
+
+Whilst there was a clear goal at the beginning of the project the output datasets were not specified, nor were the methods or datasets from which they would be produced.  Instead the project has evolved as datasets have become available and input has been received on the suitability and usability of certain themes.  
+
+
+
+Stage 1:  Defining the Estuarine and Freshwater Waterbodies.
+
+The areas representing the estuarine and freshwater waterbodies were defined using Waterbody Area from TOPO_DELIVERY.HydroArea(LPMA) and Tidal and Mangrove Limit, Survey of Tidal Limits and Mangrove Limits in NSW estuaries 1996 to 2005.  Only continuous waterbodies located downstream of the tidal limits (Tidal and Mangrove Limit - DNR, 2006) were selected.  Waterbodies that intersected the tidal limit were cut and attributed separately with a designation of Freshwater for those sections upstream of the tidal limit.  Before cutting the waterbodies the following information was referred to: location of the tidal limit points, location descriptions in the attribute table and a topographic image.
+
+NB.  In the course of the project several errors with the topographic water body boundary were identified.  
+
+
+
+Stage 2: Unioning the Hydrological Catchments &amp; Waterbodies.  The EstuaryDrainageCatchments and estuarine and freshwater waterbodies created in Stage 1 were combined through use of the union command.  This created a combined spatial layer representing estuarine waterbodies and catchments and freshwater waterbodies.
+
+
+
+Stage 3:  Inclusion of NSW Macrophyte Mapping. 
+
+After consideration it was decided that the incorporation of macrophyte information with the waterbody layer would more accurately represent the estuarine area.  This produced a dataset which could assist in estuarine modelling.  The macrophyte information comprising areas of seagrass (predominantly inundated), mangrove (regularly inundated) and saltmarsh (occasionally inundated) from the NSW Department of Primary Industries (DPI) Macrophyte (2005) spatial layer (Estuarine_Macrophytes) was incorporated into the temporary hydrological catchments and waterbody layer.
+
+  
+
+This Macrophyte layer did not provide coverage for the Sydney Central Coast area of NSW.  A gap existed between the Hunter River and Bellambi Lake catchments, leaving a total of 35 catchments whose estuarine boundary were not altered by the inclusion of macrophyte information.  In addition to the Central Coast gap there were a further 36 catchments along the coast that did not have Macrophyte information.  
+
+
+
+Stage 4:  Inclusion of Central Coast Macrophyte Mapping (DPI, 2008). 
+
+Supply of the draft NSW Department of Primary Industries (DPI) Macrophyte 2008 spatial information allowed updating of the estuarine areas for the Central Coast area of NSW from the Hunter River (NthSthNo 60) to Bellambi Lake (NthSthNo 97).  The processes and checks were the same as those carried out in Stage 3.  Catchments for which macrophyte information did not exist are:
+
+Glen Rock Lagoon,
+
+Middle Camp Creek,
+
+Moonee Beach Creek,
+
+Avoca Lake,
+
+Curl Curl Lagoon,
+
+Wattamolla Creek,
+
+Hargraves Creek,
+
+Stanwell Creek,
+
+Stoney Creek,
+
+Flanagans Creek,
+
+Hewitts Creek (Nil Estuary),
+
+Woodlands Creek,
+
+Slacky Creek,
+
+Whartons Creek (Nil Estuary),
+
+Collins Creek (Nil Estuary),
+
+Bellambi Gully,
+
+Bellambi Lake,
+
+
+
+
+
+Stage 5:  Representation to CMA region.
+
+The large file size and number of polygons within the dataset, meant that the final layer was difficult to manage.  To increase manageability and processing speeds it was decided to represent the dataset through 3 feature classes based on Catchment Management Authority regions.  The relevant catchments were selected and exported to create the files:
+
+•Northern Rivers; 
+
+•Sydney Metro, Hawkesbury-Nepean, and Hunter-Central Rivers;
+
+•Southern Rivers. 
+
+
+
+Stage 6:  Extending Estuarine areas to the Tidal Limit.
+
+A shortcoming in the datasets from the previous stage is that not all estuarine areas extend to the tidal limit as defined by the Tidal and Mangrove limit (DNR, 2006) dataset.  The purpose of Stage 6 was to create a continuous estuarine area from the Tidal Limit to the ocean or bay.  It should be noted that the edits here did not involve altering whether an estuarine mouth was open to the sea or not.  It did, however, result in continuous estuarine areas flowing into bays.
+
+Any gaps in the dataset were identified and drainage lines were selected from TOPO_DELIVERY.HydroLine and buffered by a width of 0.5m giving a total stream width of 1m.  The union command was then used to combine these buffered areas with the three CMA datasets created in Stage 5.
+
+
+
+Stage 7:  Defining Estuarine &amp; Non Estuarine Hydrological Catchment Areas.
+
+Defining the catchment boundaries was undertaken by Graeme Short, Natural Resource Project Officer.  Graeme has extensive experience in API and used this knowledge to subdivide the existing catchment areas into estuarine and non estuarine (freshwater) catchments.  The boundaries were created through on screen digitising with reference to both the topographic contour and drainage layers.
+
+The process is very subjective and dependent on the experience of the individual doing the assessment and their ability to remain consistent in their method.  There were also a number of constraints with the major one being the limited number of tidal limit points occurring on the smaller tributaries.  The other constraint hindering interpretation were those areas which have an altered landscape.  These landscapes usually occur on the flatter alluvial areas and have altered watercourses and man-made canals.  Examples of these occur in the larger catchments on the North Coast and the Shoalhaven River on the South Coast.  For these reasons it is difficult to correctly identify the catchment areas with the end product over exaggerating the total estuarine area.  Table 26 identifies those catchments where no catchment was defined due to the absence of tidal limit points.
+
+As stated above the process is a manual one and the outcome may not appropriately represent catchment areas as they occur in the real world.  The only current method available that could be used to deliver an improved product would be the use of LiDAR or DEM in conjunction with an increased number of tidal limit points on key tributaries.
+
+
+
+Stage 8:  Creating a Simplified Representation of the Estuarine Area.
+
+The inclusion of the macrophyte information created an intricate and large spatial layer.  The purpose of simplifying this layer was to remove the internal estuarine detail, creating a generalised waterbody for each estuary.  This process was performed by dissolving all internal estuarine boundaries and merging the three CMA areas.
+
+
+In June 2013 there were minor edits to attribution errors and inconsistencies in the spatial data attribute table.</gco:CharacterString>
+					</gmd:statement>
+				</gmd:LI_Lineage>
+			</gmd:lineage>
+		</gmd:DQ_DataQuality>
+	</gmd:dataQualityInfo>
+	<gmd:dataQualityInfo>
+		<gmd:DQ_DataQuality>
+			<gmd:scope>
+				<gmd:DQ_Scope>
+					<gmd:level>
+						<gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset"/>
+					</gmd:level>
+					<gmd:levelDescription>
+						<gmd:MD_ScopeDescription>
+							<gmd:other>
+								<gco:CharacterString>dataset</gco:CharacterString>
+							</gmd:other>
+						</gmd:MD_ScopeDescription>
+					</gmd:levelDescription>
+				</gmd:DQ_Scope>
+			</gmd:scope>
+			<gmd:report>
+				<gmd:DQ_CompletenessCommission>
+					<gmd:dateTime>
+						<gco:DateTime>0001-01-01T00:00:00</gco:DateTime>
+					</gmd:dateTime>
+					<gmd:result>
+						<gmd:DQ_ConformanceResult>
+							<gmd:specification>
+								<gmd:CI_Citation>
+									<gmd:title>
+										<gco:CharacterString></gco:CharacterString>
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>2001-01-01</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+									<gmd:edition>
+										<gco:CharacterString/>
+									</gmd:edition>
+								</gmd:CI_Citation>
+							</gmd:specification>
+							<gmd:explanation>
+								<gco:CharacterString></gco:CharacterString>
+							</gmd:explanation>
+							<gmd:pass>
+								<gco:Boolean>false</gco:Boolean>
+							</gmd:pass>
+						</gmd:DQ_ConformanceResult>
+					</gmd:result>
+				</gmd:DQ_CompletenessCommission>
+			</gmd:report>
+		</gmd:DQ_DataQuality>
+	</gmd:dataQualityInfo>
+	<gmd:dataQualityInfo>
+		<gmd:DQ_DataQuality>
+			<gmd:scope>
+				<gmd:DQ_Scope>
+					<gmd:level>
+						<gmd:MD_ScopeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+					</gmd:level>
+					<gmd:levelDescription>
+						<gmd:MD_ScopeDescription>
+							<gmd:other>
+								<gco:CharacterString>dataset</gco:CharacterString>
+							</gmd:other>
+						</gmd:MD_ScopeDescription>
+					</gmd:levelDescription>
+				</gmd:DQ_Scope>
+			</gmd:scope>
+			<gmd:report>
+				<gmd:DQ_CompletenessOmission>
+					<gmd:dateTime>
+						<gco:DateTime>0001-01-01T00:00:00</gco:DateTime>
+					</gmd:dateTime>
+					<gmd:result>
+						<gmd:DQ_ConformanceResult>
+							<gmd:specification>
+								<gmd:CI_Citation>
+									<gmd:title>
+										<gco:CharacterString></gco:CharacterString>
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>2001-01-01</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+									<gmd:edition>
+										<gco:CharacterString/>
+									</gmd:edition>
+								</gmd:CI_Citation>
+							</gmd:specification>
+							<gmd:explanation>
+								<gco:CharacterString></gco:CharacterString>
+							</gmd:explanation>
+							<gmd:pass>
+								<gco:Boolean>false</gco:Boolean>
+							</gmd:pass>
+						</gmd:DQ_ConformanceResult>
+					</gmd:result>
+				</gmd:DQ_CompletenessOmission>
+			</gmd:report>
+		</gmd:DQ_DataQuality>
+	</gmd:dataQualityInfo>
+	<gmd:dataQualityInfo>
+		<gmd:DQ_DataQuality>
+			<gmd:scope>
+				<gmd:DQ_Scope>
+					<gmd:level>
+						<gmd:MD_ScopeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+					</gmd:level>
+					<gmd:levelDescription>
+						<gmd:MD_ScopeDescription>
+							<gmd:other>
+								<gco:CharacterString>dataset</gco:CharacterString>
+							</gmd:other>
+						</gmd:MD_ScopeDescription>
+					</gmd:levelDescription>
+				</gmd:DQ_Scope>
+			</gmd:scope>
+			<gmd:report>
+				<gmd:DQ_ConceptualConsistency>
+					<gmd:dateTime>
+						<gco:DateTime>0001-01-01T00:00:00</gco:DateTime>
+					</gmd:dateTime>
+					<gmd:result>
+						<gmd:DQ_ConformanceResult>
+							<gmd:specification>
+								<gmd:CI_Citation>
+									<gmd:title>
+										<gco:CharacterString></gco:CharacterString>
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>2001-01-01</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+								</gmd:CI_Citation>
+							</gmd:specification>
+							<gmd:explanation>
+								<gco:CharacterString></gco:CharacterString>
+							</gmd:explanation>
+							<gmd:pass>
+								<gco:Boolean>false</gco:Boolean>
+							</gmd:pass>
+						</gmd:DQ_ConformanceResult>
+					</gmd:result>
+				</gmd:DQ_ConceptualConsistency>
+			</gmd:report>
+		</gmd:DQ_DataQuality>
+	</gmd:dataQualityInfo>
+	<gmd:dataQualityInfo>
+		<gmd:DQ_DataQuality>
+			<gmd:scope>
+				<gmd:DQ_Scope>
+					<gmd:level>
+						<gmd:MD_ScopeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+					</gmd:level>
+					<gmd:levelDescription>
+						<gmd:MD_ScopeDescription>
+							<gmd:other>
+								<gco:CharacterString>dataset</gco:CharacterString>
+							</gmd:other>
+						</gmd:MD_ScopeDescription>
+					</gmd:levelDescription>
+				</gmd:DQ_Scope>
+			</gmd:scope>
+			<gmd:report>
+				<gmd:DQ_AbsoluteExternalPositionalAccuracy>
+					<gmd:dateTime>
+						<gco:DateTime>0001-01-01T00:00:00</gco:DateTime>
+					</gmd:dateTime>
+					<gmd:result>
+						<gmd:DQ_ConformanceResult>
+							<gmd:specification>
+								<gmd:CI_Citation>
+									<gmd:title>
+										<gco:CharacterString></gco:CharacterString>
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>2001-01-01</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+								</gmd:CI_Citation>
+							</gmd:specification>
+							<gmd:explanation>
+								<gco:CharacterString></gco:CharacterString>
+							</gmd:explanation>
+							<gmd:pass>
+								<gco:Boolean>true</gco:Boolean>
+							</gmd:pass>
+						</gmd:DQ_ConformanceResult>
+					</gmd:result>
+				</gmd:DQ_AbsoluteExternalPositionalAccuracy>
+			</gmd:report>
+		</gmd:DQ_DataQuality>
+	</gmd:dataQualityInfo>
+	<gmd:dataQualityInfo>
+		<gmd:DQ_DataQuality>
+			<gmd:scope>
+				<gmd:DQ_Scope>
+					<gmd:level>
+						<gmd:MD_ScopeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+					</gmd:level>
+					<gmd:levelDescription>
+						<gmd:MD_ScopeDescription>
+							<gmd:other>
+								<gco:CharacterString>dataset</gco:CharacterString>
+							</gmd:other>
+						</gmd:MD_ScopeDescription>
+					</gmd:levelDescription>
+				</gmd:DQ_Scope>
+			</gmd:scope>
+			<gmd:report>
+				<gmd:DQ_NonQuantitativeAttributeAccuracy>
+					<gmd:dateTime>
+						<gco:DateTime>0001-01-01T00:00:00</gco:DateTime>
+					</gmd:dateTime>
+					<gmd:result>
+						<gmd:DQ_ConformanceResult>
+							<gmd:specification>
+								<gmd:CI_Citation>
+									<gmd:title>
+										<gco:CharacterString></gco:CharacterString>
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>2001-01-01</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+								</gmd:CI_Citation>
+							</gmd:specification>
+							<gmd:explanation>
+								<gco:CharacterString></gco:CharacterString>
+							</gmd:explanation>
+							<gmd:pass>
+								<gco:Boolean>false</gco:Boolean>
+							</gmd:pass>
+						</gmd:DQ_ConformanceResult>
+					</gmd:result>
+				</gmd:DQ_NonQuantitativeAttributeAccuracy>
+			</gmd:report>
+		</gmd:DQ_DataQuality>
+	</gmd:dataQualityInfo>
+	<gmd:dataQualityInfo>
+		<gmd:DQ_DataQuality>
+			<gmd:scope>
+				<gmd:DQ_Scope>
+					<gmd:level>
+						<gmd:MD_ScopeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+					</gmd:level>
+					<gmd:levelDescription>
+						<gmd:MD_ScopeDescription>
+							<gmd:other>
+								<gco:CharacterString>dataset</gco:CharacterString>
+							</gmd:other>
+						</gmd:MD_ScopeDescription>
+					</gmd:levelDescription>
+				</gmd:DQ_Scope>
+			</gmd:scope>
+			<gmd:report>
+				<gmd:DQ_TopologicalConsistency>
+					<gmd:dateTime>
+						<gco:DateTime>0001-01-01T00:00:00</gco:DateTime>
+					</gmd:dateTime>
+					<gmd:result>
+						<gmd:DQ_ConformanceResult>
+							<gmd:specification>
+								<gmd:CI_Citation>
+									<gmd:title>
+										<gco:CharacterString></gco:CharacterString>
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>2001-01-01</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+									<gmd:edition>
+										<gco:CharacterString>1</gco:CharacterString>
+									</gmd:edition>
+								</gmd:CI_Citation>
+							</gmd:specification>
+							<gmd:explanation>
+								<gco:CharacterString></gco:CharacterString>
+							</gmd:explanation>
+							<gmd:pass>
+								<gco:Boolean>true</gco:Boolean>
+							</gmd:pass>
+						</gmd:DQ_ConformanceResult>
+					</gmd:result>
+				</gmd:DQ_TopologicalConsistency>
+			</gmd:report>
+		</gmd:DQ_DataQuality>
+	</gmd:dataQualityInfo>
+	<gmd:portrayalCatalogueInfo>
+		<gmd:MD_PortrayalCatalogueReference>
+			<gmd:portrayalCatalogueCitation>
+				<gmd:CI_Citation>
+					<gmd:title>
+						<gco:CharacterString></gco:CharacterString>
+					</gmd:title>
+					<gmd:alternateTitle>
+						<gco:CharacterString></gco:CharacterString>
+					</gmd:alternateTitle>
+					<gmd:date>
+						<gmd:CI_Date>
+							<gmd:date>
+								<gco:Date>0001-01-01</gco:Date>
+							</gmd:date>
+							<gmd:dateType>
+								<gmd:CI_DateTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode" codeListValue=""/>
+							</gmd:dateType>
+						</gmd:CI_Date>
+					</gmd:date>
+					<gmd:edition>
+						<gco:CharacterString></gco:CharacterString>
+					</gmd:edition>
+					<gmd:editionDate>
+						<gco:Date>0001-01-01</gco:Date>
+					</gmd:editionDate>
+				</gmd:CI_Citation>
+			</gmd:portrayalCatalogueCitation>
+		</gmd:MD_PortrayalCatalogueReference>
+	</gmd:portrayalCatalogueInfo>
+	<gmd:metadataConstraints>
+		<gmd:MD_Constraints>
+			<gmd:useLimitation>
+				<gco:CharacterString></gco:CharacterString>
+			</gmd:useLimitation>
+		</gmd:MD_Constraints>
+	</gmd:metadataConstraints>
+	<gmd:metadataConstraints/>
+	<gmd:metadataConstraints>
+		<MD_LegalConstraints>
+			<gmd:accessConstraints>
+				<gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue=""/>
+			</gmd:accessConstraints>
+			<gmd:useConstraints>
+				<gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue=""/>
+			</gmd:useConstraints>
+		</MD_LegalConstraints>
+	</gmd:metadataConstraints>
+	<gmd:metadataMaintenance>
+		<gmd:MD_MaintenanceInformation>
+			<gmd:maintenanceAndUpdateFrequency>
+				<gmd:MD_MaintenanceFrequencyCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue=""/>
+			</gmd:maintenanceAndUpdateFrequency>
+			<gmd:dateOfNextUpdate>
+				<gco:Date>0001-01-01</gco:Date>
+			</gmd:dateOfNextUpdate>
+		</gmd:MD_MaintenanceInformation>
+	</gmd:metadataMaintenance>
+	<Esri xmlns=""><CreaDate>20131216</CreaDate><CreaTime>13431900</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20130606</SyncDate><SyncTime>13482500</SyncTime><ModDate>20130606</ModDate><ModTime>13482500</ModTime><DataProperties><lineage><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20111021" Time="160546">CopyFeatures P:\Work\SSD\Users\PearsonC\FromAnniForP\Water\EstuaryCatchment.gdb\MEREstuaryCatchment\Estuaries O:\Corporate\Themes\Water\Estuaries\Estuaries.gdb\Estuaries # 0 0 0</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20130606" Time="134947">CopyFeatures C:\Data\ArcMap\New\LynFinch\Spatial_Data\Estuaries.gdb\Estuaries P:\Corporate\Themes\Water\Estuaries\Estuaries.gdb\Estuaries # 0 0 0</Process></lineage></DataProperties><ArcGISFormat>1.0</ArcGISFormat><ArcGISstyle>ISO 19139 Metadata Implementation Specification</ArcGISstyle></Esri><dataqual xmlns=""><lineage><procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">C:\Data\SDC\_MetadataPortalXMLs\Water\Estuary\{59E5CA6D-2875-47DE-BE4B-0E979E78FAD2} EstuaryTidalLimits.xml</srcused><procdate Sync="TRUE">20110419</procdate><proctime Sync="TRUE">11260800</proctime></procstep><procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">C:\Data\GIS\temp\Estuaries.xml</srcused><procdate Sync="TRUE">20130606</procdate><proctime Sync="TRUE">13150100</proctime></procstep></lineage></dataqual><idinfo xmlns=""><native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.1850</native><descript><langdata Sync="TRUE">en</langdata><abstract>REQUIRED: A brief narrative summary of the data set.</abstract><purpose>REQUIRED: A summary of the intentions with which the data set was developed.</purpose></descript><citation><citeinfo><origin>REQUIRED: The name of an organization or individual that developed the data set.</origin><pubdate>REQUIRED: The date when the data set is published or otherwise made available for release.</pubdate><title Sync="TRUE">Estuaries</title><ftname Sync="TRUE">Estuaries</ftname><geoform Sync="TRUE">vector digital data</geoform><onlink Sync="TRUE">\\lidcona01a\spatialmaster\Corporate\Themes\Water\Estuaries\Estuaries.gdb</onlink></citeinfo></citation><timeperd><current>REQUIRED: The basis on which the time period of content information is determined.</current><timeinfo><sngdate><caldate>REQUIRED: The year (and optionally month, or month and day) for which the data set corresponds to the ground.</caldate></sngdate></timeinfo></timeperd><status><progress>REQUIRED: The state of the data set.</progress><update>REQUIRED: The frequency with which changes and additions are made to the data set after the initial data set is completed.</update></status><spdom><bounding><westbc Sync="TRUE">149.375116</westbc><eastbc Sync="TRUE">153.638727</eastbc><northbc Sync="TRUE">-28.150972</northbc><southbc Sync="TRUE">-37.505044</southbc></bounding><lboundng><leftbc Sync="TRUE">149.375116</leftbc><rightbc Sync="TRUE">153.638727</rightbc><bottombc Sync="TRUE">-37.505044</bottombc><topbc Sync="TRUE">-28.150972</topbc></lboundng></spdom><keywords><theme><themekt>REQUIRED: Reference to a formally registered thesaurus or a similar authoritative source of theme keywords.</themekt><themekey>REQUIRED: Common-use word or phrase used to describe the subject of the data set.</themekey></theme></keywords><accconst>REQUIRED: Restrictions and legal prerequisites for accessing the data set.</accconst><useconst>REQUIRED: Restrictions and legal prerequisites for using the data set after access is granted.</useconst><natvform Sync="TRUE">File Geodatabase Feature Class</natvform></idinfo><dataIdInfo xmlns=""><envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.1850</envirDesc><dataLang><languageCode Sync="TRUE" value="en"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">Estuaries</resTitle></idCitation><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">149.375116</westBL><eastBL Sync="TRUE">153.638727</eastBL><northBL Sync="TRUE">-28.150972</northBL><southBL Sync="TRUE">-37.505044</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">149.375116</westBL><eastBL Sync="TRUE">153.638727</eastBL><northBL Sync="TRUE">-28.150972</northBL><southBL Sync="TRUE">-37.505044</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox></dataIdInfo><metainfo xmlns=""><langmeta Sync="TRUE">en</langmeta><metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn><metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv><mettc Sync="TRUE">local time</mettc><metc><cntinfo><cntorgp><cntper>REQUIRED: The person responsible for the metadata information.</cntper><cntorg>REQUIRED: The organization responsible for the metadata information.</cntorg></cntorgp><cntaddr><addrtype>REQUIRED: The mailing and/or physical address for the organization or individual.</addrtype><city>REQUIRED: The city of the address.</city><state>REQUIRED: The state or province of the address.</state><postal>REQUIRED: The ZIP or other postal code of the address.</postal></cntaddr><cntvoice>REQUIRED: The telephone number by which individuals can speak to the organization or individual.</cntvoice></cntinfo></metc><metd Sync="TRUE">20130606</metd><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo><mdLang xmlns=""><languageCode Sync="TRUE" value="en"></languageCode></mdLang><mdStanName xmlns="" Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer xmlns="" Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar xmlns=""><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv xmlns=""><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName xmlns="" Sync="TRUE">dataset</mdHrLvName><distinfo xmlns=""><resdesc Sync="TRUE">Downloadable Data</resdesc></distinfo><distInfo xmlns=""><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\lidcona01a\spatialmaster\Corporate\Themes\Water\Estuaries\Estuaries.gdb</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc></distorTran><distorFormat><formatName Sync="TRUE">File Geodatabase Feature Class</formatName></distorFormat></distributor></distInfo><spdoinfo xmlns=""><direct Sync="TRUE">Vector</direct><ptvctinf><esriterm Name="Estuaries"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Polygon</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">0</efeacnt><spindex Sync="TRUE">TRUE</spindex><linrefer Sync="TRUE">FALSE</linrefer><XYRank Sync="TRUE">1</XYRank><ZRank Sync="TRUE">1</ZRank><topoWeight Sync="TRUE">5.000000</topoWeight><validateEvents Sync="TRUE">FALSE</validateEvents><partTopoRules><topoRuleID Sync="TRUE">21</topoRuleID></partTopoRules><partTopoRules><topoRuleID Sync="TRUE">22</topoRuleID></partTopoRules></esriterm><sdtsterm Name="Estuaries"><sdtstype Sync="TRUE">G-polygon</sdtstype><ptvctcnt Sync="TRUE">0</ptvctcnt></sdtsterm></ptvctinf></spdoinfo><spref xmlns=""><horizsys><cordsysn><geogcsn Sync="TRUE">GCS_GDA_1994</geogcsn></cordsysn><geograph><geogunit Sync="TRUE">Decimal degrees</geogunit><latres Sync="TRUE">0.000000</latres><longres Sync="TRUE">0.000000</longres></geograph><geodetic><horizdn Sync="TRUE">D_GDA_1994</horizdn><ellips Sync="TRUE">Geodetic Reference System 80</ellips><semiaxis Sync="TRUE">6378137.000000</semiaxis><denflat Sync="TRUE">298.257222</denflat></geodetic></horizsys><vertdef><altsys><altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc><altres Sync="TRUE">0.000100</altres></altsys></vertdef></spref><refSysInfo xmlns=""><RefSystem><refSysID><identCode Sync="TRUE">GCS_GDA_1994</identCode></refSysID></RefSystem></refSysInfo><spatRepInfo xmlns=""><VectSpatRep><topLvl><TopoLevCd Sync="TRUE" value="001"></TopoLevCd></topLvl><geometObjs Name="Estuaries"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">0</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><eainfo xmlns=""><detailed Name="Estuaries"><enttyp><enttypl Sync="TRUE">Estuaries</enttypl><enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">0</enttypc></enttyp><attr><attrlabl Sync="TRUE">OBJECTID</attrlabl><attalias Sync="TRUE">OBJECTID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">SHAPE</attrlabl><attalias Sync="TRUE">SHAPE</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Feature geometry.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">TYPE</attrlabl><attalias Sync="TRUE">TYPE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">30</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">NAMETYPE</attrlabl><attalias Sync="TRUE">NAMETYPE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ESTUARINE_</attrlabl><attalias Sync="TRUE">ESTUARINE_</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">CATCHMENTN</attrlabl><attalias Sync="TRUE">CATCHMENTN</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">NTHSTHNO</attrlabl><attalias Sync="TRUE">NTHSTHNO</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ESTUARYNO</attrlabl><attalias Sync="TRUE">ESTUARYNO</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">AREA_HA_Z5</attrlabl><attalias Sync="TRUE">AREA_HA_Z5</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">AREA_M2_Z5</attrlabl><attalias Sync="TRUE">AREA_M2_Z5</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">SHAPE_Length</attrlabl><attalias Sync="TRUE">SHAPE_Length</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Length of feature in internal units.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Positive real numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">Area_ha_z56</attrlabl><attalias Sync="TRUE">Area_ha_z56</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">Area_m2_z56</attrlabl><attalias Sync="TRUE">Area_m2_z56</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">SHAPE_Area</attrlabl><attalias Sync="TRUE">SHAPE_Area</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Positive real numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">EST_No_REP</attrlabl><attalias Sync="TRUE">EST_No_REP</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr></detailed></eainfo><mdDateSt xmlns="" Sync="TRUE">20130606</mdDateSt></gmd:MD_Metadata>

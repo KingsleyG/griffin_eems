@@ -1,0 +1,26 @@
+[general] 
+creator=R package 'raster' 
+created= 2014-07-31 18:55:31 
+[georeference] 
+nrows= 552 
+ncols= 910 
+xmin= 315814.663618027 
+ymin= 6248255.00003071 
+xmax= 343124.28970194 
+ymax= 6264803.73367198 
+projection= +proj=utm +zone=56 +south +ellps=GRS80 +units=m +no_defs 
+[data] 
+datatype= FLT8S 
+byteorder= little 
+nbands= 1 
+bandorder= BIL 
+categorical= FALSE 
+minvalue= -45.7561538461538 
+maxvalue= 0 
+nodatavalue= -1.7e+308 
+[legend] 
+legendtype=  
+values=  
+color=  
+[description] 
+layername= layer 

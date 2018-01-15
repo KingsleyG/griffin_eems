@@ -1,0 +1,22 @@
+---
+title: "Scripts"
+output: 
+  md_document:
+    variant: markdown_github
+---
+
+Code in this repo is utilised as follows:  
+
++ R/method_comp_figures.R makes each of the data-figures from the MS.
+Start here to reproduce each of the main figures.
+
++ R/functions.R contains utility functions 
++ R/cnet_out_cleaning.R runs data cleaning/wrangling
++ R/transects.R subsets the survey into 50m 'transect' sections (used in Figure 2)
++ R/variograms.R builds variograms for the observations at each site (used in Figure 3)
++ R/SDM_Kelp_5m.R makes the 5m resolution SDM for kelp
++ R/SDM_predictors_5m.R builds the predictors for the SDM.
+
+---  
+The Rmarkdown file used to produce the (manuscript)[http://onlinelibrary.wiley.com/doi/10.1002/ece3.3041/full] is available by request.
+
